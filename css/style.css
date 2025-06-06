@@ -72,7 +72,7 @@
   /*--color3: #393234; /* Deep Charcoal */ 
   --color3: #ffffff;
   --color4: #000000;  /* Cool Stone Gray */
-  --text-color:#000;
+  --text-color:#5a5859;
 }
 
 html{
@@ -86,7 +86,7 @@ body{
   font-weight: 400;
   letter-spacing: 0.025em;
   line-height: 1.9428;
-  color: var(--color4);
+  color: var(--text-color);
   background: var(--color3);
   -webkit-overflow-scrolling:touch;
 }
@@ -461,7 +461,8 @@ label.error{
   width: 100%;
   height: 100%;
   background:#1b1b1b;
-  color:#4b4b4b;
+  /* color:#4b4b4b; */
+  color: var(--text-color);
   text-align: center;
 }
 
@@ -595,7 +596,8 @@ label.error{
 }
 
 .navbar-fixed .navbar-bg{
-  height: 100%;
+  /* height: 100%; */
+  height: 80%;
   
   box-shadow: 0 0 35px rgba(0,0,0,0.2);
 }
@@ -664,7 +666,7 @@ a.brand:focus{
 }
 
 .navbar-toggle .icon-bar{
-  background-color: #fff;
+  background-color: #ee5058;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -1001,7 +1003,8 @@ a.brand:focus{
 }
 
 #pp-nav{
-  z-index: 100;
+  /* z-index: 100; */
+  z-index: 0;
   width: 2.1428rem;
   margin-top:0!important;
   -webkit-transform: translateY(-50%);
@@ -1072,7 +1075,7 @@ a.brand:focus{
 
 #pp-nav li .active span, .pp-slidesNav .active span,
 #pp-nav span:hover, .pp-slidesNav span:hover{
-  opacity: 1;
+  opacity: 0;
 }
 
 #pp-nav li .active span, .pp-slidesNav .active span{
@@ -2169,3 +2172,25 @@ a.brand:focus{
 
 
 
+/* Floating CTA */
+.floating-cta {
+  position: fixed;
+  bottom: 70px;
+  right: 30px;
+  z-index: 1000;
+}
+
+.cta-button {
+  background-color: var(--color1);
+  color: #fff;
+  padding: 14px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e95158;
+}
