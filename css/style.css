@@ -140,7 +140,8 @@ h2,
 .h2{ 
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 3.371rem;
+  /* font-size: 3.371rem; */
+  font-size: 3rem;
   line-height: 1.166;
   color: var(--text-color);
   letter-spacing: 0;
@@ -151,7 +152,8 @@ h3,
 .h3{
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 2.142rem;
+  /* font-size: 2.142rem; */
+  font-size: 2rem;
   line-height: 1.2;
   letter-spacing: -0.05em;
   color: var(--text-color);
@@ -162,7 +164,8 @@ h4,
 .h4{
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 1.714rem;
+  /* font-size: 1.714rem; */
+  font-size: 1rem;
   line-height: 1.25;
   letter-spacing: 0.025em;
   color: var(--color1);
@@ -173,12 +176,14 @@ h5,
 .h5{
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 1.571rem;
+  /* font-size: 1.571rem; */
+  font-size: 1rem;
   line-height: 1.1;
   letter-spacing:0;
   /* color: #fff; */
   color: var(--text-color);
-  margin:2.6rem 0;
+  /* margin:2.6rem 0; */
+  margin:1rem 0;
 }
 
 h6,
@@ -189,7 +194,8 @@ h6,
   line-height: 1.3333;
   letter-spacing:0;
   color: var(--color1);
-  margin:2.6rem 0;
+  /* margin:2.6rem 0; */
+  margin: 2rem 0 1rem 0;
 }
 
 h1 a,
@@ -286,13 +292,13 @@ textarea{
   width:100%;
   font-size: 1rem;
   border-radius: 0.75em;
-  color: #fff;
+  color: var(--text-color);
   background-color:#fffbfb;
   border:0;
   border-radius: 0;
   padding: 0.7rem 1rem 0.7rem;
   -webkit-box-shadow: 0 0 25px rgba(0,0,0,0.5);
-          box-shadow: 0 0 25px rgba(0,0,0,0.5);
+          box-shadow: 0 0 25px rgba(235,202,202,0.5);
       -webkit-appearance: none;
   -webkit-transition: all .15s;
        -o-transition: all .15s;
@@ -318,7 +324,7 @@ input[type="tel"]:focus,
 textarea:focus{
   border-color: var(--color1);
   outline: 0;
-  color: #fff;
+  color:  var(--text-color);
 }
 
 
@@ -432,7 +438,7 @@ label.error{
   content: '';
   position: absolute;
   right: 100%;
-  /* top:50%; */
+  top:90%;
   height: 1px;
   width: 99999rem;
   background: var(--color1);
@@ -758,7 +764,7 @@ a.brand:focus{
 }
 
 .contact-address{
-  margin-top:5rem;
+  /* margin-top:5rem; */
 }
 
 #success,
@@ -1257,11 +1263,13 @@ a.brand:focus{
 .title{
   letter-spacing: -0.025em;
   line-height: 1.33333;
-  margin:0 0 3rem;
+  /* margin:0 0 3rem; */
+  margin:0 0 1rem;
 }
 
 .display-1{
-  font-size: 4.28rem;
+  /* font-size: 4.28rem; */
+  font-size: 3.8rem;
   line-height: 1;
   letter-spacing: -0.05em;
   margin:0;
@@ -1325,7 +1333,7 @@ a.brand:focus{
   position:relative;
   z-index: 2;
   top:5rem;
-  /* padding:0 3.6rem; */
+  padding:0 3.6rem;
   text-align: center;
   transition: all 0.5s;
   color: var(--color1);
@@ -1813,7 +1821,7 @@ a.brand:focus{
 .review-row{
   position: relative;
   padding-top:3rem;
-  padding-bottom: 5rem;
+  /* padding-bottom: 5rem; */
 }
 
 .review-row:before{
@@ -1829,7 +1837,8 @@ a.brand:focus{
 
 .review-carousel .text{
   font-weight: 300;
-  font-size: 1.275rem;
+  /* font-size: 1.275rem; */
+  font-size: 1rem;
   line-height: 1.675;
   margin:0;
   color: var(--text-color);
